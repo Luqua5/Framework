@@ -1,0 +1,16 @@
+{
+    "name": "lukac/framework",
+    "autoload": {
+        "psr-4": {
+            "router\\": "router/",
+            "exceptions\\": "exceptions/",
+            "controllers\\": "controllers/",
+            "source\\": "src/",
+            "models\\": "models/"
+
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
